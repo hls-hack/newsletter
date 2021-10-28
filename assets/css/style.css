@@ -2077,3 +2077,34 @@ section {
 #footer .credits a:hover {
   color: white;
 }
+
+
+/* += ------ CUSTOM */
+.secton-links {
+  font-size: 1em; 
+  color:gray;
+}
+
+.blink {
+  animation: color-change 1s infinite;
+  /* animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite; */
+}
+
+/* @keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+} */
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: black; }
+  100% { color: red; }
+}
